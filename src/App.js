@@ -67,8 +67,8 @@ function App() {
           <p>Block Transactions index 0's Hash!: {blockTr.transactions[0].hash}</p>
           <p>To: {blockTr.transactions[0].to}</p>
           <p>From: {blockTr.transactions[0].from}</p>
-          {/* <p>Value: {blockTr.transactions[0].val}</p> */}
-          {/* <p>Data: {blockTr.transactions[0].data}</p> */}
+          <p>Value: {blockTr.transactions[0].value.toString()}</p>
+          <p>Data: {blockTr.transactions[0].data.toString()}</p>
         </div>}
     </div>
   );}
